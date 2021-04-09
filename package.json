@@ -1,0 +1,8 @@
+{
+  "name": "ynjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ynjs/ynjs.git",
+  "author": "zhuqiang <290353142@qq.com>",
+  "license": "MIT"
+}
