@@ -7,6 +7,6 @@ module.exports = {
     open:{
         enabled:true,
         app: 'chrome',
-        url:"/example/"
+        url:"/example/index.html"
     }
 }
