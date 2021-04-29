@@ -19,5 +19,15 @@
 */
 
 import Route from '@ioc:Adonis/Core/Route'
+const Database = use('Database')
 
+Route.get('/', async () => {
+  return await Database.table('users').select('*')
+})
 Route.on('/').render('welcome')
+Route.on('/login').render('login')
+
+
+Route.get('/api/test', async () => {
+    return await Database.table('users').select('*')
+})

@@ -20,7 +20,8 @@
     "./providers/AppProvider",
     "@adonisjs/core",
     "@adonisjs/session",
-    "@adonisjs/view"
+    "@adonisjs/view",
+    "@adonisjs/lucid/providers/LucidProvider"
   ],
   "metaFiles": [
     {
@@ -33,6 +34,7 @@
     }
   ],
   "aceProviders": [
-    "@adonisjs/repl"
+    "@adonisjs/repl",
+    "@adonisjs/lucid/providers/MigrationsProvider"
   ]
 }
